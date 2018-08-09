@@ -5,6 +5,7 @@ def countdown(integer)
     puts "#{integer} SECOND(S)!"
     integer -= 1
   end
+  return 
 end
 
 def countdown_with_sleep
